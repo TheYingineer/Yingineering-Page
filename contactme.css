@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
   
-.overall {
+.contactmeoverall {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /* align-items:center; */
+  flex-direction: column;
+  justify-content: top;
+  align-items:center;
   text-align: center;
-  background-image:url(./jH4ni9Y.jpg);
+  background-image:url(./499353.jpg);
   background-repeat: no-repeat;
   width:100%;
   height: 100%;
@@ -17,6 +17,16 @@
   
 }
 
+.contactmetitle {
+  color: beige;
+  background-color: #333;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.contactmeoverall div {
+  color:beige;
+}
 
 
 

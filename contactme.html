@@ -8,17 +8,17 @@
 
     <title>CONTACT ME</title>
 </head>
+
 <body>
-    <div class = "overall">
+    <div class = "contactmeoverall">
+    <!-- *************navbar*********** -->
         <div class="topnav">
             <a href="./home.html">Home</a>
             <a href="./aboutme.html">About</a>
             <a href="./resume.html">Resume</a>
             <a href="./contactme.html">Contact Me</a>
             <a href="./gallery.html">Gallery</a>
-
         </div>
-
         <div class="dropdown">
             <button class="dropbtn">MENU</button>
             <div class="dropdown-content">
@@ -28,8 +28,128 @@
                 <li><a href="./contactme.html">Contact Me</a></li>
                 <li><a href="./gallery.html">Gallery</a></li>
             </div>
+        </div>       
+    <!-- **********end of navbar************** -->
+    
+    <div class = "contactmecontainer">
+   
+        <div class = "contactmetitle">
+            <p>THE YINGINEER</p>
+        </div>
+
+        <div>
+            <p>If any of my tempalte website that you really like, you can reach out to me thru my email. <br>
+                novelgeniuslady@gmail.com
+            </p>
+        </div>
+
+        <form action="./results.html" method="GET">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name = "name" id = "name" required>
         </div>
         
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name = "email" id = "email" required>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name = "password" id = "password" required>
+        </div>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name = "age" id = "age" min = "1" max ="150" step="5">
+        </div>
+
+        <div>
+            <label for="date">Birthday</label>
+            <input type="date" name = "date" id = "date" min = "1900-01-01">
+        </div>
+
+        <div>
+            <br>
+            Favorite Food
+            <div>
+                <label for="banana">Banana</label>
+                <input type="checkbox" name = "banana" id = "banana">
+            </div>
+            <div>
+                <label for="apple">Apple</label>
+                <input type="checkbox" name = "apple" id = "apple">
+            </div>
+        </div>
+
+        <div>
+            <br>
+            Gender
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name = "gender" id ="male>
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name = "gender" id ="female>
+            </div>
+        </div>
+
+        <div>
+            <label for="eyecolor">Eye Color</label>
+            <select name="eyecolor" id="eyecolor">
+                <option value="Green">Green</option>
+                <option value="Brown">Brown</option>
+                <option value="Blue">Blue</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="education">Education</label>
+            <select name="education" id="education" multiple>
+                <option value="highschool">High School Diploma</option>
+                <option value="comcollege">Community College</option>
+                <option value="bachelor">Bachelor Degree</option>
+                <option value="masterphd">Master Degree or PHD</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="bio">BIO</label>
+            <textarea name="bio" id="bio" cols="30" rows="10">My name is...</textarea>
+        </div>
+
+        <input type="hidden" name="hidden" value = "hi">
+
+        <div>
+            <label for="file">File</label>
+            <input type="file" type = "file" name = "file">
+        </div>
+
+        <div>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name = "phone" id = "phone">
+        </div>
+
+        <div>
+            <label for="URL">URL</label>
+            <input type="url" name = "url" id = "url">
+        </div>
+
+        <div>
+            <label for="color">Color</label>
+            <input type="color" name = "color" id = "color">
+        </div>
+
+        <button type ="button">New Membership (under construction)</button>
+        <button type="submit"> Submit (under construction)</button>
+
+
+
+        </div>
+        </form>
+    
+    </div>
     </div>
 
 </body>
