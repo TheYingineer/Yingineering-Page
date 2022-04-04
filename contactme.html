@@ -11,6 +11,10 @@
 
 <body>
     <div class = "contactmeoverall">
+        <div class = "contactmetitle">
+            <p>THE YINGINEER</p>
+        </div>
+
     <!-- *************navbar*********** -->
         <div class="topnav">
             <a href="./home.html">Home</a>
@@ -33,35 +37,34 @@
     
     <div class = "contactmecontainer">
    
-        <div class = "contactmetitle">
-            <p>THE YINGINEER</p>
-        </div>
+       
 
-        <div>
+        <div class ="message">
             <p>If any of my tempalte website that you really like, you can reach out to me thru my email. <br>
-                novelgeniuslady@gmail.com
+                novelgeniuslady@gmail.com. <br> Just FYI: below just a template of a fill form.
             </p>
         </div>
 
         <form action="./results.html" method="GET">
+    <div class = "fillform">
         <div>
             <label for="name">Name</label>
-            <input type="text" name = "name" id = "name" required>
+            <input type="text" name = "name" id = "name" required width="300px">
         </div>
         
         <div>
             <label for="email">Email</label>
-            <input type="email" name = "email" id = "email" required>
+            <input type="email" name = "email" id = "email" required placeholder="your email here" width="300px">
         </div>
 
         <div>
             <label for="password">Password</label>
-            <input type="password" name = "password" id = "password" required>
+            <input type= "password" name = "password" id = "password" required width="300px">
         </div>
 
         <div>
             <label for="age">Age</label>
-            <input type="number" name = "age" id = "age" min = "1" max ="150" step="5">
+            <input type="number" name = "age" id = "age" min = "1" max ="150" step="5"width = "300px">
         </div>
 
         <div>
@@ -83,8 +86,7 @@
         </div>
 
         <div>
-            <br>
-            Gender
+            <label for="gender">Gender</label>
             <div>
                 <label for="male">Male</label>
                 <input type="radio" name = "gender" id ="male>
@@ -96,7 +98,7 @@
         </div>
 
         <br>
-        <br>
+        
         <div>
             <label for="eyecolor">Eye Color</label>
             <select name="eyecolor" id="eyecolor">
@@ -118,7 +120,7 @@
 
         <div>
             <label for="bio">BIO</label>
-            <textarea name="bio" id="bio" cols="30" rows="10">My name is...</textarea>
+            <textarea name="bio" id="bio" cols="30" rows="10" width = 300px height = 300px >My name is...</textarea>
         </div>
 
         <input type="hidden" name="hidden" value = "hi">
@@ -143,10 +145,10 @@
             <input type="color" name = "color" id = "color">
         </div>
 
-        <button type ="button">New Membership (under construction)</button>
-        <button type="submit"> Submit (under construction)</button>
+        <button type ="button">New Membership</button>
+        <button type="submit"> Submit</button>
 
-
+        </div>
 
         </div>
         </form>
