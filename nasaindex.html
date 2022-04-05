@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA-Page</title>
+    <link rel="stylesheet" href="./nasastyle.css">
+</head>
+
+<!-- ********************************************* -->
+
+<body>
+    <main>
+        
+        <div class="NASApicture">
+                <img src="http://www.nasa.gov/sites/default/files/thumbnails/image/quasaroutflow.png"
+                alt="NASA" style="width:850px; height: 450px;">
+        </div> 
+          
+         <!-- ********************************************* -->
+
+        <div class = "wordNASA">NASA</div>
+            
+
+        <!-- ********************************************* -->
+
+        <div class ="secondcontainer"> 
+
+           <div class="SocialMedia ">
+                    <p class = "TitleSocialMedia"> Social Media </p>
+
+                    <a class = "Twitter" href="https://twitter.com/NASA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eautho">Twitter - @nasa </a> 
+                    <!-- &nbsp;  -->
+                    <!-- &nbsp means non-break space -->
+
+                    <a class = "Facebook" href="https://www.facebook.com/NASA">Facebook -fb.com/nasa </a> 
+                    <!-- &nbsp;  -->
+                    <!-- &nbsp means non-break space -->
+
+                    <a class = "Instagram" href="https://www.instagram.com/nasa/">Instagram - @nasa</a> 
+                    <!-- &nbsp; -->
+                    <!-- &nbsp means non-break space -->
+
+                    <a class= "Youtube" href="https://www.youtube.com/watch?v=21X5lGlDOfg">youtube.com/NASA</a> 
+                    <!-- &nbsp;  -->
+                    <!-- &nbsp means non-break space -->
+                                        
+           </div>
+        
+
+
+
+           <div class="OfficeInfo">
+                    <p class = "TitleOfficeInfo"> OFFICE INFO</p> 
+                    <p class = "PublicComm"> Public Communication Office</p>
+                    <p class = "NASAheadqrt">NASA Headquarters</p>
+                    <p class = "address">Washington, DC 20546</p>
+                    <p class = "OfficephoneNum">(202) 358-0001 [Office]</p>
+                    <p class = "FaxNum">(202)358-4338 (Fax)</p>
+            </div>
+            
+            
+
+
+           <div Class = "ContactUs"> 
+                    <p class = "TitleContactUs"> CONTACT US </p>
+                    
+<!-- ~~~~~~~~~~~~~~~~~~~~~~METHOD 1 & it works from Pre-Class~~~~~~~~~~~~~~~ -->
+                   
+                    <!-- the name block -->
+                    <!-- <form class = "GetName"> Name: <input class ="NameBox" type="text" name="YourName" placeholder="Your Name here..."> 
+                    </form> -->
+
+
+                    <!-- the message block -->
+                    <!-- <form class = "GetMessage"> Message: <input class ="Messagebox" type="text" name="YourMessage" placeholder="Your Message here..."> 
+                    
+                        <input class ="SubmitButton" type="submit" name="submit" value="Submit"> 
+                    
+                    </form> -->
+
+<!-- ~~~~~~~~~~~~~~~~~END OF METHOD 1 & IT WORKS From Pre-Class~~~~~~~~~~~~~~~ -->
+
+
+
+<!-- ~~~~~~~~~~~~~~~~ METHOD 2 from w3 School~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                    <form action="ying.yan.huang87@gmail.com" method="get">
+                        <!-- I wanted to send me an email when user enter info -->
+                        
+                        <label class = "UserName" for="Username">Name:</label>
+                        <input class = "UserNameBox" type="text" id="UserName" name="UserName"><br><br>
+                    
+                        <label Class = "UserMessage" for="Msg">Message:</label> 
+                        
+                        <br>
+
+                        <!-- here I want to make the text to go to next line each time
+                        use this link https://stackoverflow.com/questions/67141493/how-to-make-an-input-go-to-next-line-when-reaching-its-width-html -->
+           
+
+
+
+
+
+
+                        <!--~~~~~~~~~~~~~~~~~~~ METHOD 1: getting the user the type its message and it will 
+                            go to the next line  ---- this line 93 will work for what I need -->
+
+                        <!-- <textarea class = "UserMessasgeBox" id ="Msg" name ="Msg" cols="30" rows="4" ></textarea> -->
+           
+
+                        <!-- ~~~~~~~~~~~end of method 1 asking for User entering message and go to next line -->
+                        
+                        
+
+
+                        
+                        <!-- ~~~~~~~~~~~~~~~~~~ METHOD 2: getting the user the type its message and it will 
+                            go to the next line --- using CSS method    use this link https://stackoverflow.com/questions/67141493/how-to-make-an-input-go-to-next-line-when-reaching-its-width-html -->
+                        
+                        <textarea class = "UserMessageCustomSizeBox" placeholder="Enter your message" rows="" cols="" name="" form=""></textarea>
+
+                        <!-- ~~~~~~~~~~~~~~~~~~end of METHOD 2:   getting the user the type its message and it will Go to the next line-->
+
+                        <br>
+                        <br>
+                    
+                        <input class = "SendButton" type="submit" value="Send">
+                        <!-- the value above is what you want to put on the button -->
+                    </form>
+
+                    
+              
+
+            </div>
+
+            
+    
+        </div>
+
+
+        <!-- ****************************************************** -->
+    </main>
+</body>
+</html>
+
+
+
+
+
+

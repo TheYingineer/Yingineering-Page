@@ -1,0 +1,330 @@
+
+
+
+/************* FOR LAPTOP***************  */
+
+@media(min-width:501px) { 
+   
+     .THEBOX{ 
+            background-color:aquamarine;
+            color:pink; 
+            /* border:5px solid rgb(126, 112, 112); */
+    
+            height: 100%;
+            width: auto;
+            text-align: Center;
+            display: grid; 
+            grid-template-rows: 50% 50%;
+            grid-template-columns: 1fr;
+    
+      } 
+    
+      *{box-sizing: border-box;} 
+
+       
+      
+      .FirstContainer{ 
+          /* border: 5px solid pink; */
+          background-color: rgb(31, 187, 135);
+          color:white;
+          font-size: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }    
+      
+
+
+      .SecondContainer {
+          /* border: 5px solid blue;  */
+          background-color: black;
+          color: white;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 1fr;
+          padding: 20px;
+          justify-content: space-around;
+      }
+      
+  
+     .block2{ 
+         /* border:rgb(31, 187, 135) 5px solid; */
+         background-color: black;
+         color:pink;
+         display: grid;
+         justify-content: center;
+     }
+     
+     .blubox1{
+        /* border:5px solid blue; */
+        height: 50px;
+        background-color: aqua;
+        height: 50px;
+        width: 200px;
+        margin-left: auto;
+        margin-right:auto;
+     } 
+
+     /* MAKING THE WORD TITLE BIG */
+   
+     .block2 span {
+        color: white;
+        font-size: 30px;
+        /* border: 5px solid green; */
+        padding:5px;
+        justify-content: space-around;
+    
+    }
+
+    /* *********END OF block2 BOX ******************** */
+
+
+
+
+       /* ********block3 BOX********** */
+
+         .block3{
+            /* border:rgb(31, 187, 135) 5px solid; */
+            background-color: black;
+            color:pink;
+            display: grid;
+            justify-content: center;
+        }
+        
+       .orgbox1{
+           /* border:5px solid yellow; */
+           height: 50px;
+           background-color: orangered;
+           height: 50px;
+           width: 200px;
+           margin-left: auto;
+           margin-right:auto;
+        } 
+   
+        /* MAKING THE WORD TITLE BIG */
+
+        .block3 span {
+           color: white;
+           font-size: 30px;
+           /* border: 5px solid green; */
+           padding:5px;
+           justify-content: space-around;
+       
+       } 
+
+     
+       /* *********END OF block3 ******************** */
+
+
+       /* ********block4 BOX********** */
+
+           .block4{
+                /* border:rgb(31, 187, 135) 5px solid; */
+                background-color: black;
+                color:pink;
+                display: grid;
+                justify-content: center;
+            }
+            
+           .grnbox1{
+               /* border:5px solid yellow; */
+               height: 50px;
+               background-color: aquamarine;
+               height: 50px;
+               width: 200px;
+               margin-left: auto;
+               margin-right:auto;
+            }
+        
+
+  /* ~~~~~ IMPORTANT TO REMEMBER: TO CALL OUT SPECIFICALLY TO JUST THE TITLE, ADD SPAN in P in HTML~~~~ */
+
+            /* MAKING THE WORD TITLE BIG */
+           .block4 span {
+            /* border: 5px solid green; */   
+               color: white;
+               font-size: 30px;
+               padding:5px;
+               justify-content: space-around; 
+           
+           }
+    
+ }
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************for phone*************************************** */
+
+
+
+
+
+
+
+
+
+@media(max-width:500px) 
+{    
+    *{ box-sizing: border-box; }
+   
+    .THEBOX{ 
+           /* background-color:yellow; */
+           color:white; 
+           /* border:5px solid blue;    */
+           height: 100%;
+           width: auto;
+           text-align: Center;
+           display: grid; 
+           grid-row: 1/2 2/3 3/4 4/5;
+           grid-template-columns: 1fr;
+    }
+   
+              
+     .FirstContainer{ 
+         /* border: 5px solid pink; */
+         background-color: rgb(31, 187, 135);
+         color:white;
+         font-size: 40px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }    
+     
+     /* ********BLUE BOX********** */
+
+     .block2{
+         /* border:rgb(31, 187, 135) 5px solid; */
+         background-color: black;
+         color:pink;
+         display: grid;
+         justify-content: center;
+     } 
+     
+     .blubox1{
+        /* border:5px solid blue; */
+        height: 50px;
+        background-color: aqua;
+        height: 50px;
+        width: 200px;
+        margin-left: auto;
+        margin-right:auto;
+     } 
+
+     /* MAKING THE WORD TITLE BIG */
+     .block2 span {
+        color: white;
+        font-size: 30px;
+        /* border: 5px solid green; */
+        padding:5px;
+        justify-content: space-around;
+    
+    } 
+
+    /* *********END OF block2 BOX ******************** */
+
+
+
+
+       /* ********block3 BOX********** */
+
+         .block3{
+            /* border:rgb(31, 187, 135) 5px solid; */
+            background-color: black;
+            color:pink;
+            display: grid;
+            justify-content: center;
+        }
+        
+       .orgbox1{
+           /* border:5px solid yellow; */
+           height: 50px;
+           background-color: orangered;
+           height: 50px;
+           width: 200px;
+           margin-left: auto;
+           margin-right:auto;
+        }
+   
+        /* MAKING THE WORD TITLE BIG */
+        .block3 span {
+           color: white;
+           font-size: 30px;
+           /* border: 5px solid green; */
+           padding:5px;
+           justify-content: space-around;
+       
+       }
+
+     
+       /* *********END OF block3 ******************** */
+
+
+       /* ********block4 BOX********** */
+
+           .block4{
+                /* border:rgb(31, 187, 135) 5px solid; */
+                background-color: black;
+                color:pink;
+                display: grid;
+                justify-content: center;
+            }
+            
+           .grnbox1{
+               /* border:5px solid yellow; */
+               height: 50px;
+               background-color: aquamarine;
+               height: 50px;
+               width: 200px;
+               margin-left: auto;
+               margin-right:auto;
+            }
+       
+            /* MAKING THE WORD TITLE BIG */
+            .block4 span {
+               color: white;
+               font-size: 30px;
+               /* border: 5px solid green; */
+               padding:5px;
+               justify-content: space-around;
+           
+           }
+    
+         
+           /* *********END OF block4 ******************** */
+   
+
+}

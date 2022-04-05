@@ -1,0 +1,334 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid red; */
+    padding-bottom: 50px;
+}
+
+.navcontainer{
+    width: 100%;
+    /* border:5px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/********* end of heading********* */
+
+
+.bannerinpic {
+    background-position: left;
+    background-image: url(//freewebsitetemplates.com/preview/mustacheenthusiast/images/the-beacon.jpg);  
+    min-width: 960px;  
+    height: 544px;
+    background-repeat: no-repeat;
+    /* border: 5px solid pink;   */
+    
+ 
+}
+
+
+.allwordNbutton{
+    /* border: 5px solid orange; */
+    height: 400px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-top: 30px;
+}
+
+
+/*********** white banner */
+
+.whtbckgrn {
+    /* border: 5px solid orange; */
+    background-color: white;
+    font-weight: 1000;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+    width: fit-content;
+    height: 50px;
+   
+}
+
+
+/* *********mid banner********* */
+.midbanners{
+    /* border: 5px solid orangered; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    height:200px;
+    width: fit-content;
+}
+
+.blkbckgrn{
+    /* border: 5px solid orange; */
+    background-color: black;
+    color:white;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    display:flex;
+    align-items: center;
+   height: 40px;
+  } 
+
+
+/* read me button */
+.readme button {
+    background: aqua;
+    color:antiquewhite;
+    font-weight: bolder;
+    border-radius: 5px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+       
+}
+
+.readme button a:hover {
+    background:darkgreen;
+    text-decoration: none;
+    color: white;
+}
+
+.piclink {
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:auto;
+}
+
+.piclink1 {
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:auto;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.piclink2 {
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:auto;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.piclink3 {
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:auto;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+
+/* ***********footers********* */
+
+.imgs {
+     /* border: 5px solid pink; */
+     height 45px; 
+     width: 205px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+}
+.iconimg {
+    border: 2px solid white;
+    height: 44px;
+}
+
+
+/* end of footer */
+
+
+
+
+
+
+
+/* ***************desktop view ************* */
+
+@media(min-width:600px) { 
+    footer .socialicons {
+        /* border: 5px solid green; */
+        background: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100px;
+        width: auto;
+    }
+
+        
+        .bannerinpic {
+        display:inline-flexbox;
+        direction: ltr;
+        padding-left: 50%;
+        padding-top: 20px;
+        }
+
+    /************ nav bar ***********/
+    .topnav {
+        /* background-color: #333; */
+        /* border: 5px solid salmon; */
+        color: salmon;
+        
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: fit-content;
+        width: 50%;
+        /* position: absolute; */
+        padding-top: 20px;
+    }
+
+    .topnav a{
+    color:aquamarine;
+    font-weight: bolder;
+    font-family: 'Rubik Puddles', cursive;
+    }
+    
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    .dropdown {
+        display: none;
+        visibility: hidden;  
+    }
+    
+    /* end of nav bar */
+}
+
+
+
+
+/* *********MOBILE VERSION******* */
+@media(max-width:601px) { 
+    footer .socialicons {
+        /* border: 5px solid green; */
+        background: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        width: auto;
+    }
+
+    
+
+    .midbanners{
+        width: 470px;
+        height: 300px;
+    }
+
+    .blkbckgrn{
+        height: 80px;
+        justify-content: space-between;
+        align-items: left;
+    }
+
+    .piclink {
+        flex-direction: column;    
+    }
+
+    .piclink1 {
+        width: 470px;   
+    }
+    
+    /* begin of the nav bar */
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        /* padding: 16px; */
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        list-style: none;
+    
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: flex; 
+      }
+      
+      .dropdown-content a:hover {
+          background-color: pink;
+          color:#3e8e41;
+        }
+
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+      } 
+    
+      .topnav{
+          display: none;
+          visibility: hidden;
+      }
+
+      /* *******end of nav bar */
+    
+}

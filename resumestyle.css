@@ -1,0 +1,182 @@
+body {
+    /* background-color: orange; */
+    height: auto;
+    width: auto;
+    /* border: 5px solid black; */   
+    display: grid;
+    grid-template-columns: 30% 70% ;
+    grid-template-rows: 1fr;
+    /* grid-template-areas:"leftcolumn rightcolumn rightcolumn" ; */
+}
+
+
+
+/* ****************LEFT COLUMN******************** */
+
+.leftcolumn{
+    /* border: 5px solid palevioletred; */
+    background-color: navajowhite;
+    width: 100%;
+    height: 100%;
+    /* max-height: none; */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-content fit-content 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+/* **************pic********** */
+.pictureHolder {
+    /* border: 5px solid palevioletred; */
+    min-width: 10px;
+    min-height: 10px;      
+    align-items: center;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Userpic {
+    border-radius: 50%;
+    /* border: 5px solid white; */
+    min-width: 50px;
+    min-height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+/* ***********end of picture ****** */
+
+.jobtitle {
+    /* border: 5px solid palevioletred; */
+    background-color: lavender;
+    align-items: center;
+    min-height: fit-content;
+    min-width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.jobtitle span {
+    /* border: 5px solid palevioletred; */
+    display: flex;
+    align-items: center;
+    min-height: fit-content;
+    min-width: fit-content;
+    /* height:auto; */
+    width: auto;
+    justify-content: space-around;
+}
+/* *******************end of jobtitle****** */
+
+
+/* ********Contact info************* */
+
+
+.sociallink img{
+    
+    max-height: 50px;
+    max-width: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sociallink {
+    background-color: navajowhite;
+    /* border:5px solid red; */
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.history {
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* margin-left: 0%; */
+    justify-content: left;
+    align-items: left;
+    padding:0%;
+}
+
+.word {
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+hr { background-color: gray;
+     width: 100%;
+     height: 5px;
+     margin-right: auto;
+     margin-left: auto;
+}
+
+
+
+
+/* ***************END OF LEFT COLUMN****************** */
+
+
+/*  *************RIGHT COLUMN*********************/
+
+.rightcolumn {
+    /* border: 5px solid palevioletred; */
+    background-color: lavender;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.littletitle{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-weight: bolder; */
+    font-size: 20px;
+}
+
+.worktitle{ 
+    
+    color: rgb(55, 127, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+
+
