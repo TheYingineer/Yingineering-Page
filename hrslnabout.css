@@ -63,7 +63,7 @@ header {
 
 .imgs {
      /* border: 5px solid yellow; */
-     height 46px; 
+     height: 46px; 
      width: 205px;
      display: flex;
      flex-direction: row;
